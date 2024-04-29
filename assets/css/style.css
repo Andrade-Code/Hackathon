@@ -1,0 +1,183 @@
+#logo {
+    width: 20%;
+}
+
+#logo1 {
+    width: 20%;
+}
+
+#logo2 {
+    width: 20%;
+}
+
+#titulo {
+    color: rgb(66, 139, 248);
+}
+
+#carousel {
+    height: 10%;
+    margin-bottom: 2rem;
+}
+
+#depoimentos {
+    display: block;
+}
+
+#depoimentos1 {
+    display: block;
+
+}
+
+.card-2 {
+
+    /* height: 200px;
+    width: 450px; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: #1A7FBE -5px 5px, #5B7FB9 -10px 10px, #C27FB1 -15px 15px, #5B7FB9 -10px 10px, #C27FB1 -0 0;
+    padding: 5px;
+}
+
+#container{
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+p#end{
+    margin-top: 8rem;
+}
+
+/* minha parte termina aqui */
+
+div h2 {
+    text-align: center;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titulos {
+    color: #1A7FBE;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#titulo {
+    color: rgb(66, 139, 248);
+}
+
+#pag {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#banner-text,
+#inscricao {
+    display: flex;
+    justify-content: center;
+}
+
+
+#banner-inscricao {
+    height: 150px;
+    width: 500px;
+}
+
+#select-modulo {
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+#container-table1,
+#container-table2 {
+    justify-content: center;
+    display: none;
+    margin-bottom: 5%;
+}
+
+
+#tabela1,
+#tabela2 {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: #5B7FB9;
+    color: white;
+}
+
+table thead,
+tfoot {
+    text-align: center;
+    color: #C27FB1;
+    font-weight: bold;
+}
+
+table tr {
+    border: solid 1px black;
+}
+
+table td {
+    border: solid 1px black;
+}
+
+#container-calendario {
+    width: 90%;
+    margin: auto;
+    color: #1A7FBE;
+    display: flex;
+    justify-content: center;
+
+}
+
+#calendar {
+    width: 50%;
+}
+
+#eventos {
+    margin-left: 5%;
+}
+
+#container-banner2 {
+    margin-top: 5rem;
+}
+/* Ajuste para os botões de controle do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cor escura com opacidade para contraste com o fundo branco */
+    color: white;
+    /* Cor branca para contrastar com o fundo escuro */
+    width: 5%;
+    /* Define a largura dos botões de controle */
+    display: flex;
+    /* Mantém os botões flexíveis para centralizar os ícones */
+    justify-content: center;
+    /* Centraliza os ícones nos botões */
+    align-items: center;
+    /* Centraliza os ícones nos botões */
+}
+
+/* Ajuste para os ícones dos botões de controle */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+    /* Inverte a cor dos ícones para branco */
+}
+
+/* Ajuste para a cor dos textos nas legendas com fundo branco */
+.carousel-caption h5,
+.carousel-caption p {
+    color: black;
+    /* Cor do texto preta para contraste com fundo branco */
+}
+
+/* Ajuste específico para a legenda com fundo azul */
+.carousel-inner .carousel-item:nth-child(2) .carousel-caption h5,
+.carousel-inner .carousel-item:nth-child(2) .carousel-caption p {
+    color: white;
+    /* Cor do texto branca para contraste com fundo azul */
+}
