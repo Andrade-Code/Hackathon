@@ -8,11 +8,13 @@
     <meta name="description" content="Página sobre o curso do projeto Reprograme-se">
     <title>Reprograme-se - O Curso</title>
 
+    <!-- Links para arquivos CSS de estilo e ícones -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- Links para arquivos JavaScript de Bootstrap e FullCalendar -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
         defer></script>
@@ -20,24 +22,30 @@
 </head>
 
 <body>
+    <!-- Cabeçalho com a barra de navegação -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-3">
             <div class="container-fluid">
+
+                <!-- Link para a página inicial com logo do projeto -->
                 <a href="index.html" class="navbar-brand">
-                    <img id="logo" src="assets/img/logo-reprogramese/preferencial-horizontal.png"
+                    <img id="logo-reprogramese" src="assets/img/1logo-reprogramese/logo-reprogramese.png"
                         alt="Logo Reprograme-se">
                 </a>
 
+                <!-- Botão para alternar a barra de navegação em dispositivos móveis -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Alternar navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Itens da barra de navegação -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Links para as páginas principais do site -->
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="curso.html">O Curso</a>
@@ -50,23 +58,32 @@
                         </li>
                     </ul>
 
+                    <!-- Botões para aumentar ou diminuir o tamanho da fonte e alterar o contraste -->
                     <div class="d-flex gap-2">
-                        <button class="btn btn-outline-primary" type="button">A+</button>
-                        <button class="btn btn-outline-primary" type="button">A-</button>
-                        <button class="btn btn-outline-primary" type="button">Contraste</button>
+                        <!-- Botão para aumentar o tamanho da fonte -->
+                        <button class="btn btn-outline-primary" type="button" id="aumentar-fonte">A+</button>
+
+                        <!-- Botão para diminuir o tamanho da fonte -->
+                        <button class="btn btn-outline-primary" type="button" id="diminuir-fonte">A-</button>
+
+                        <!-- Botão para alternar o contraste -->
+                        <button class="btn btn-outline-primary" type="button" id="alternar-contraste">Contraste</button>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Seção principal com informações sobre o curso -->
     <section class="text-start">
         <main id="container">
+            <!-- Banner para inscrição -->
             <div id="container-banner">
                 <div id="banner-text" class="text-center mb-3">
                     <h4 class="titulos">⇩ Inscreva-se clicando no banner abaixo ⇩</h4>
                 </div>
 
+                <!-- Link para a página de inscrição -->
                 <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
                     id="inscricao">
                     <figure>
@@ -75,6 +92,7 @@
                 </a>
             </div>
 
+            <!-- Descrição do curso -->
             <div id="container-texto">
                 <h2 class="titulos">Cursos de programação web na modalidade à distância</h2>
                 <h4 class="titulos">Modalidade de oferta:</h4>
@@ -93,14 +111,17 @@
                 <p>O estudante deve dedicar pelo menos 10 horas semanais para estudos.</p>
             </div>
 
+            <!-- Grade curricular do curso -->
             <div id="container-tabelas">
                 <h4 class="titulos">Confira a grade curricular do curso:</h4>
+                <!-- Selecionador de módulos -->
                 <select name="Selecionar Módulo" id="select-modulo" onchange="mostrarTabela(this);">
                     <option value="">Selecione o Módulo</option>
                     <option value="m1">Módulo 1</option>
                     <option value="m2">Módulo 2</option>
                 </select>
 
+                <!-- Grade curricular para o módulo 1 -->
                 <div id="container-table1">
                     <table id="tabela1">
                         <thead>
@@ -116,6 +137,7 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- Detalhes do módulo 1 -->
                             <tr>
                                 <td>Módulo I: Conhecimentos básicos de HTML e CSS</td>
                                 <td>
@@ -172,6 +194,7 @@
                     </table>
                 </div>
 
+                <!-- Grade curricular para o módulo 2 -->
                 <div id="container-table2">
                     <table id="tabela2">
                         <thead>
@@ -187,6 +210,7 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- Detalhes do módulo 2 -->
                             <tr>
                                 <td>Módulo I: Introdução ao framework Node.js e notação JavaScript</td>
                                 <td>
@@ -248,6 +272,7 @@
                 </div>
             </div>
 
+            <!-- Seção de datas e eventos importantes -->
             <div id="container-calendario" class="my-5">
                 <h4 class="titulos">Datas e eventos:</h4>
                 <div id='calendar'></div>
@@ -255,50 +280,63 @@
                 <div id="eventos">
                     <h5>Eventos Importantes</h5>
                     <ul>
-                        <li>05/03/2023 - Início do período de inscrições no programa</li>
-                        <li>10/03/2023 - Fim do período de inscrições no programa</li>
-                        <li>13/03/2023 - Divulgação dos selecionados</li>
-                        <li>15/03/2023 - Envio das credenciais para os candidatos</li>
-                        <li>17/03/2023 - Início das aulas</li>
+                        <li class="event-item">05/03/2023 - Início do período de inscrições no programa</li>
+                        <li class="event-item">10/03/2023 - Fim do período de inscrições no programa</li>
+                        <li class="event-item">13/03/2023 - Divulgação dos selecionados</li>
+                        <li class="event-item">15/03/2023 - Envio das credenciais para os candidatos</li>
+                        <li class="event-item">17/03/2023 - Início das aulas</li>
                     </ul>
                 </div>
             </div>
         </main>
     </section>
 
+    <!-- Seção com depoimentos de alunos -->
     <section class="container mt-5">
         <h4 class="titulos">Depoimentos de Alunos:</h4>
         <div class="row">
+            <!-- Card com depoimento de Wellington -->
             <div class="col-md-4 col-sm-6 mb-4">
                 <div class="card-2">
                     <div class="card-body">
-                        <h5 class="card-title">Wellington</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                            sapiente eligendi beatae adipisci et aperiam, nesciunt quis blanditiis tempore veniam.</p>
+                        <h5 class="card-title">Anderson Andrade</h5>
+                        <p class="card-text">Quando entrei no curso Reprograme-se, eu era completamente iniciante nesse tipo de programação. Desde o início, os professores
+                        foram incríveis, explicando conceitos complexos de forma clara e sempre dispostos a ajudar. Conforme os meses foram
+                        passando, comecei a me sentir mais confiante e seguro com minhas habilidades. O curso não só me ensinou as tecnologias
+                        necessárias, como também me deu uma base sólida para continuar aprendendo por conta própria. Recomendo o curso para qualquer pessoa
+                        interessada em entrar no mundo da programação!</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Card com depoimento de Carlos Henrrique -->
             <div class="col-md-4 col-sm-6 mb-4">
                 <div class="card-2">
                     <div class="card-body">
                         <h5 class="card-title">Carlos Henrrique</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis hic modi
-                            minus eius atque doloremque labore nesciunt, vel quia veritatis?</p>
+                        <p class="card-text">"Achei o curso muito bom, por ter bastante conteúdo, por esses conteúdos serem apresentados principalmente de forma
+                        prática e também pela forma de avaliação ser com atividades práticas e não só teóricas, o que pra mim melhora muito a
+                        qualidade do aprendizado."</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Card com depoimento de Bruno Vinicius -->
             <div class="col-md-4 col-sm-6 mb-4">
                 <div class="card-2">
                     <div class="card-body">
-                        <h5 class="card-title">Bruno Vinicius</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum
-                            repellat ad alias, distinctio expedita nulla. Tempore voluptas deserunt eaque?</p>
+                        <h5 class="card-title">Wellington</h5>
+                        <p class="card-text">"Um bom curso do tipo mão na massa, vc aprende com projetos propostos pelos professores, esses por sua vez são bem
+                        capacitados e entregaram um excelente conteúdo.
+                        Aborda a parte de front end e back end o que faz com que agente entenda, mesmo que de forma básica, todo o processo de
+                        funcionamento de uma página web ou uma aplicação."</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Seção com banner de inscrição -->
     <section id="container-banner2" class="mt-5">
         <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
             id="inscricao">
@@ -311,6 +349,7 @@
         </div>
     </section>
 
+    <!-- Rodapé com ícones de redes sociais e direitos autorais -->
     <footer>
         <div id="end" class="d-flex justify-content-center gap-1 mt-5">
             <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
@@ -332,6 +371,7 @@
         <p class="text-center">&copy; Copyright 2023, Corporation</p>
     </footer>
 
+    <!-- Script JavaScript personalizado -->
     <script src="assets/js/script.js"></script>
 </body>
 

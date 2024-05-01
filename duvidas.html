@@ -2,41 +2,50 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Configurações básicas do documento -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Perguntas frequentes sobre o projeto Reprograme-se">
     <title>Reprograme-se - Dúvidas</title>
 
+    <!-- Links para os arquivos CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- Links para os arquivos JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
         defer></script>
 </head>
 
 <body>
+    <!-- Cabeçalho com a barra de navegação -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-3">
             <div class="container-fluid">
+
+                <!-- Link para a página inicial com logo do projeto -->
                 <a href="index.html" class="navbar-brand">
-                    <img id="logo" src="assets/img/logo-reprogramese/preferencial-horizontal.png"
+                    <img id="logo-reprogramese" src="assets/img/1logo-reprogramese/logo-reprogramese.png"
                         alt="Logo Reprograme-se">
                 </a>
 
+                <!-- Botão para alternar a barra de navegação em dispositivos móveis -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Alternar navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Itens da barra de navegação -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Links para as páginas principais do site -->
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="curso.html">O Curso</a>
@@ -49,20 +58,30 @@
                         </li>
                     </ul>
 
+                    <!-- Botões para aumentar ou diminuir o tamanho da fonte e alterar o contraste -->
                     <div class="d-flex gap-2">
-                        <button class="btn btn-outline-primary" type="button">A+</button>
-                        <button class="btn btn-outline-primary" type="button">A-</button>
-                        <button class="btn btn-outline-primary" type="button">Contraste</button>
+                        <!-- Botão para aumentar o tamanho da fonte -->
+                        <button class="btn btn-outline-primary" type="button" id="aumentar-fonte">A+</button>
+
+                        <!-- Botão para diminuir o tamanho da fonte -->
+                        <button class="btn btn-outline-primary" type="button" id="diminuir-fonte">A-</button>
+
+                        <!-- Botão para alternar o contraste -->
+                        <button class="btn btn-outline-primary" type="button" id="alternar-contraste">Contraste</button>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Seção de perguntas frequentes -->
     <section>
+        <!-- Título da seção -->
         <h1 class="text-center titulos mt-3 mb-4">Perguntas Frequentes</h1>
 
+        <!-- Accordion com perguntas e respostas -->
         <div class="accordion" id="accordion">
+            <!-- Primeira pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -79,6 +98,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Segunda pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -95,6 +115,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Terceira pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -109,6 +130,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Quarta pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -124,6 +146,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Quinta pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -139,6 +162,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Sexta pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -154,6 +178,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Sétima pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -169,6 +194,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Oitava pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEight">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -184,6 +210,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Nona pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingNine">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -200,6 +227,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Décima pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTen">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -215,6 +243,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Décima primeira pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEleven">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -230,6 +259,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Décima segunda pergunta -->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwelve">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -248,12 +278,15 @@
         </div>
     </section>
 
+    <!-- Seção de link para a página de contato -->
     <section class="container mt-5 text-center">
         <h4 class="titulos">
-            <a href="contato.html" class="contact-link">Para mais dúvidas, críticas, elogios ou sugestões, clique aqui.</a>
+            <a href="contato.html" class="contact-link">Para mais dúvidas, críticas, elogios ou sugestões, clique
+                aqui.</a>
         </h4>
     </section>
 
+    <!-- Rodapé com ícones de redes sociais -->
     <footer>
         <div id="end" class="text-center d-flex justify-content-center gap-2 mt-5">
             <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i
@@ -266,6 +299,7 @@
         <p class="text-center">&copy; Copyright 2023, Corporation</p>
     </footer>
 
+    <!-- Script JavaScript personalizado -->
     <script src="assets/js/script.js"></script>
 </body>
 
