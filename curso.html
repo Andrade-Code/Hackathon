@@ -3,99 +3,100 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Reprograme-se</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página sobre o curso do projeto Reprograme-se">
+    <title>Reprograme-se - O Curso</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
         defer></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js' defer></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-3">
             <div class="container-fluid">
-                <img class="navbar-brand" id="logo" src="./assets/img/logo-reprogramese/preferencial-horizontal.png"
-                    alt="logo reprograme-se">
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="assets/img/logo-reprogramese/preferencial-horizontal.png"
+                        alt="Logo Reprograme-se">
+                </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Alternar navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav nav-tabs me-auto mb-2 mb-lg-1">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="curso.html">O curso</a>
-                        </li>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="curso.html">O Curso</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="duvidas.html">Dúvidas</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                     </ul>
-                    <form class="d-flex gap-2">
-                        <button class="btn btn-outline-primary" type="submit">A+</button>
-                        <button class="btn btn-outline-primary" type="submit">A-</button>
-                        <button class="btn btn-outline-primary" type="submit">Contraste</button>
-                    </form>
+
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-primary" type="button">A+</button>
+                        <button class="btn btn-outline-primary" type="button">A-</button>
+                        <button class="btn btn-outline-primary" type="button">Contraste</button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <section class=" text-start text-md-start text-sm-start">
+    <section class="text-start">
         <main id="container">
             <div id="container-banner">
-                <div id="banner-text">
+                <div id="banner-text" class="text-center mb-3">
                     <h4 class="titulos">⇩ Inscreva-se clicando no banner abaixo ⇩</h4>
                 </div>
 
                 <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
                     id="inscricao">
                     <figure>
-                        <img id="banner-inscricao" src="assets/img/mockups/Jovens.png">
+                        <img id="banner-inscricao" src="assets/img/mockups/Jovens.png" alt="Banner de inscrição">
                     </figure>
                 </a>
             </div>
 
-
-
             <div id="container-texto">
                 <h2 class="titulos">Cursos de programação web na modalidade à distância</h2>
                 <h4 class="titulos">Modalidade de oferta:</h4>
-                <p>Os cursos serão desenvolvidos pelo Ifes campus Cachoeiro de Itapemirim utilizando-se de
-                    Ambientes Virtuais de Aprendizagem e o aluno contará com orientações de profissionais
-                    capacitados como professores formadores, professores mediadores e o apoio de monitores.
-                    Os estudos ocorrerão de forma online e, ainda, o aluno contará com o apoio e orientação de
-                    forma presencial no polo de apoio presencial de seu município.</p>
+                <p>Os cursos serão desenvolvidos pelo Ifes campus Cachoeiro de Itapemirim utilizando-se de Ambientes
+                    Virtuais de Aprendizagem, contando com orientação de profissionais capacitados como professores
+                    formadores, mediadores e monitores.</p>
+                <p>Os estudos ocorrerão online, com apoio e orientação presencial no polo de apoio presencial de seu
+                    município.</p>
+
                 <h4 class="titulos">Duração:</h4>
-                <p>O reprograme-se terá a duração de 8 meses, sendo 4 meses para o curso Programação básica
-                    de aplicativos Web - Front-end e 4 meses para o curso Programação com JavaScript e o
-                    Framework Node.js - Back-end. Com início em setembro de 2022 e término previsto para
-                    maio de 2023.</p>
-                <h4 class="titulos">Carga horária prevista para estudos semanais:</h4>
-                <p>O estudante deverá disponibilizar pelo menos 10h (dez horas) por semana.</p>
+                <p>O curso tem duração de 8 meses, divididos em 4 meses para Programação básica de aplicativos Web -
+                    Front-end e 4 meses para Programação com JavaScript e o Framework Node.js - Back-end.</p>
+                <p>O curso tem início em setembro de 2022 e término previsto para maio de 2023.</p>
+
+                <h4 class="titulos">Carga horária semanal prevista:</h4>
+                <p>O estudante deve dedicar pelo menos 10 horas semanais para estudos.</p>
             </div>
 
             <div id="container-tabelas">
-                <h4 class="titulos">Confira a grade currícular do curso abaixo:</h4>
-                <select name="Selecionar Módulo" id="select-modulo" onchange="javascript:mostrarTabela(this);">
-                    <option>Selecione o Módulo</option>
+                <h4 class="titulos">Confira a grade curricular do curso:</h4>
+                <select name="Selecionar Módulo" id="select-modulo" onchange="mostrarTabela(this);">
+                    <option value="">Selecione o Módulo</option>
                     <option value="m1">Módulo 1</option>
                     <option value="m2">Módulo 2</option>
                 </select>
@@ -104,68 +105,70 @@
                     <table id="tabela1">
                         <thead>
                             <tr>
-                                <td colspan="3">
-                                    <h5>Curso FIC 1- Programação básica de aplicativos Web - Front-end</h5>
-                                </td>
+                                <th colspan="3">
+                                    <h5>Curso FIC 1 - Programação básica de aplicativos Web - Front-end</h5>
+                                </th>
                             </tr>
                             <tr>
-                                <td>Módulo / Período</td>
-                                <td>Conteúdos</td>
-                                <td>Carga Horária</td>
+                                <th>Módulo / Período</th>
+                                <th>Conteúdos</th>
+                                <th>Carga Horária</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>MÓDULO I
-                                    Conhecimentos
-                                    básicos de HTML e
-                                    CSS</td>
-                                <td>- Funcionamento dos elementos de um site: HTML, CSS, Javascript
-                                    e imagens.
-                                    - Elementos para a criação e formatação de tabelas.
-                                    - Formulários
-                                    - Agrupamento, dimensionamento e posicionamento de elementos.</td>
-                                <td>40</td>
+                                <td>Módulo I: Conhecimentos básicos de HTML e CSS</td>
+                                <td>
+                                    <ul>
+                                        <li>Funcionamento de elementos de um site: HTML, CSS, JavaScript e imagens.</li>
+                                        <li>Elementos para criação e formatação de tabelas e formulários.</li>
+                                        <li>Agrupamento, dimensionamento e posicionamento de elementos.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO II
-                                    Introdução ao
-                                    framework Bootstrap</td>
-                                <td>- Introdução ao Bootstrap 5.
-                                    - Formulários.
-                                    - Componentes do framework.
-                                    - Classes utilitárias para formatação de páginas.</td>
-                                <td>40</td>
+                                <td>Módulo II: Introdução ao framework Bootstrap</td>
+                                <td>
+                                    <ul>
+                                        <li>Introdução ao Bootstrap 5.</li>
+                                        <li>Formulários e componentes do framework.</li>
+                                        <li>Classes utilitárias para formatação de páginas.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO III
-                                    Programação
-                                    estruturada com
-                                    JavaScript</td>
-                                <td>- Introdução a linguagem JavaScript
-                                    - Estruturas condicionais e introdução à coleções de dados.
-                                    - Estruturas de repetição e coleções de dados.
-                                    - Funções e procedimentos</td>
-                                <td>50</td>
+                                <td>Módulo III: Programação estruturada com JavaScript</td>
+                                <td>
+                                    <ul>
+                                        <li>Introdução à linguagem JavaScript.</li>
+                                        <li>Estruturas condicionais e introdução à coleções de dados.</li>
+                                        <li>Estruturas de repetição e coleções de dados.</li>
+                                        <li>Funções e procedimentos.</li>
+                                    </ul>
+                                </td>
+                                <td>50 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO IV
-                                    Desenvolvimento web
-                                    com HTML, CSS e
-                                    JavaScript</td>
-                                <td>- Hierarquia e propriedades de objetos de um documento HTML
-                                    - Manipulação de objetos de um documento HTML
-                                    - Eventos de objetos de um documento HTML
-                                    - Validação de formulários</td>
-                                <td>30</td>
+                                <td>Módulo IV: Desenvolvimento web com HTML, CSS e JavaScript</td>
+                                <td>
+                                    <ul>
+                                        <li>Hierarquia e propriedades de objetos de um documento HTML.</li>
+                                        <li>Manipulação de objetos de um documento HTML.</li>
+                                        <li>Eventos de objetos de um documento HTML.</li>
+                                        <li>Validação de formulários.</li>
+                                    </ul>
+                                </td>
+                                <td>30 horas</td>
                             </tr>
+                        </tbody>
                         <tfoot>
                             <tr>
                                 <td colspan="2">Carga horária total</td>
-                                <td>160</td>
+                                <td>160 horas</td>
                             </tr>
                         </tfoot>
-                        </tbody>
                     </table>
                 </div>
 
@@ -173,225 +176,163 @@
                     <table id="tabela2">
                         <thead>
                             <tr>
-                                <td colspan="3">
-                                    <h5>Curso: FIC 2- Programação com JavaScript e o Framework Node.js - Back-end</h5>
-                                </td>
+                                <th colspan="3">
+                                    <h5>Curso FIC 2 - Programação com JavaScript e o Framework Node.js - Back-end</h5>
+                                </th>
                             </tr>
                             <tr>
-                                <td>Módulo / Período</td>
-                                <td>Conteúdos</td>
-                                <td>Carga Horária</td>
+                                <th>Módulo / Período</th>
+                                <th>Conteúdos</th>
+                                <th>Carga Horária</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>MÓDULO I
-                                    Introdução ao framework
-                                    Node.js e notação
-                                    Javascript.</td>
-                                <td>- Instalar, configurar e introdução ao framework Node.js
-                                    - Javascript com Node.js e introdução a notação de objetos
-                                    Javascript (JSON)
-                                    - Depuração de programas e programação assíncrona.
-                                    - Requisições HTTP.</td>
-                                <td>40</td>
+                                <td>Módulo I: Introdução ao framework Node.js e notação JavaScript</td>
+                                <td>
+                                    <ul>
+                                        <li>Instalação, configuração e introdução ao framework Node.js.</li>
+                                        <li>JavaScript com Node.js e introdução à notação de objetos JavaScript (JSON).
+                                        </li>
+                                        <li>Depuração de programas e programação assíncrona.</li>
+                                        <li>Requisições HTTP.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO II
-                                    Criação de páginas
-                                    customizadas com Node.js.</td>
-                                <td>- Servidor WEB com Node.js
-                                    - Criação de páginas customizadas com templates
-                                    avançados.
-                                    - Manipulação de arquivos e envio de mensagens.
-                                    - Envio e formatação de arquivos e imagens.</td>
-                                <td>40</td>
+                                <td>Módulo II: Criação de páginas customizadas com Node.js</td>
+                                <td>
+                                    <ul>
+                                        <li>Servidor web com Node.js.</li>
+                                        <li>Criação de páginas customizadas com templates avançados.</li>
+                                        <li>Manipulação de arquivos e envio de mensagens.</li>
+                                        <li>Envio e formatação de arquivos e imagens.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO III
-                                    Persistência de dados com
-                                    Sequelize.</td>
-                                <td>- Sobre o Sequelize
-                                    - Persistência de dados.
-                                    - Adicionar e remover objetos com Sequelize.
-                                    - Alterar e introduzir a consulta de objetos com Sequelize.
-                                    - Consulta e filtro de objetos com Sequelize.</td>
-                                <td>40</td>
+                                <td>Módulo III: Persistência de dados com Sequelize</td>
+                                <td>
+                                    <ul>
+                                        <li>Introdução ao Sequelize.</li>
+                                        <li>Persistência de dados.</li>
+                                        <li>Adicionar e remover objetos com Sequelize.</li>
+                                        <li>Alterar e realizar consulta de objetos com Sequelize.</li>
+                                        <li>Consulta e filtro de objetos com Sequelize.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
                             <tr>
-                                <td>MÓDULO IV
-                                    Node.js intermediário, CRUD
-                                    com Sequelize, cookies e
-                                    sessões.</td>
-                                <td> Funcionamento de rotas e parâmetros de rotas.
-                                    - Criação de CRUD usando Sequelize.
-                                    - Introdução e manipulação de cookies e sessões.
-                                    - Autenticação de usuários.</td>
-                                <td>40</td>
+                                <td>Módulo IV: Node.js intermediário, CRUD com Sequelize, cookies e sessões</td>
+                                <td>
+                                    <ul>
+                                        <li>Funcionamento de rotas e parâmetros de rotas.</li>
+                                        <li>Criação de CRUD usando Sequelize.</li>
+                                        <li>Introdução e manipulação de cookies e sessões.</li>
+                                        <li>Autenticação de usuários.</li>
+                                    </ul>
+                                </td>
+                                <td>40 horas</td>
                             </tr>
+                        </tbody>
                         <tfoot>
                             <tr>
                                 <td colspan="2">Carga horária total</td>
-                                <td>160</td>
+                                <td>160 horas</td>
                             </tr>
                         </tfoot>
-                        </tbody>
                     </table>
                 </div>
             </div>
 
-            <h4 class="titulos">Datas e eventos:</h4>
-            <div id="container-calendario">
-
+            <div id="container-calendario" class="my-5">
+                <h4 class="titulos">Datas e eventos:</h4>
                 <div id='calendar'></div>
+
                 <div id="eventos">
                     <h5>Eventos Importantes</h5>
                     <ul>
-                        <li>05/03/2023 - Inicio do período de inscrições no programa</li>
+                        <li>05/03/2023 - Início do período de inscrições no programa</li>
                         <li>10/03/2023 - Fim do período de inscrições no programa</li>
                         <li>13/03/2023 - Divulgação dos selecionados</li>
-                        <li>15/03/2023 - Envio das credenciais para os candidatos </li>
+                        <li>15/03/2023 - Envio das credenciais para os candidatos</li>
                         <li>17/03/2023 - Início das aulas</li>
                     </ul>
                 </div>
             </div>
-
-
         </main>
     </section>
 
-    <section>
-        <div>
-            <h4 class="titulos">Confira o depoimento de alguns alunos:</h4>
-        </div>
-        <div class="container m-4">
-            <div class="row   ">
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Wellington</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                                sapiente eligendi beatae adipisci et aperiam, nesciunt quis blanditiis tempore veniam.
-                            </p>
-                        </div>
+    <section class="container mt-5">
+        <h4 class="titulos">Depoimentos de Alunos:</h4>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Wellington</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                            sapiente eligendi beatae adipisci et aperiam, nesciunt quis blanditiis tempore veniam.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Carlos Henrrique</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis hic
-                                modi
-                                minus eius atque doloremque labore nesciunt, vel quia veritatis?</p>
-                        </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Henrrique</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis hic modi
+                            minus eius atque doloremque labore nesciunt, vel quia veritatis?</p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Bruno Vinicius</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolorum
-                                repellat ad alias, distinctio expedita nulla. Tempore voluptas deserunt eaque?</p>
-                        </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Bruno Vinicius</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum
+                            repellat ad alias, distinctio expedita nulla. Tempore voluptas deserunt eaque?</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="container m-4">
-            <div class="row ">
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Wellington</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                                sapiente eligendi beatae adipisci et aperiam, nesciunt quis blanditiis tempore veniam.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Carlos Henrrique</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis hic
-                                modi
-                                minus eius atque doloremque labore nesciunt, vel quia veritatis?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Bruno Vinicius</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolorum
-                                repellat ad alias, distinctio expedita nulla. Tempore voluptas deserunt eaque?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container m-4">
-            <div class="row">
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Wellington</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-                                sapiente eligendi beatae adipisci et aperiam, nesciunt quis blanditiis tempore veniam.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Carlos Henrrique</h5>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis hic
-                                modi
-                                minus eius atque doloremque labore nesciunt, vel quia veritatis?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-4 mb-4">
-                    <div class="card-2">
-                        <div class="card-body">
-                            <h5 class="card-title">Bruno Vinicius</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dolorum
-                                repellat ad alias, distinctio expedita nulla. Tempore voluptas deserunt eaque?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="container-banner2">
-            <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
-                id="inscricao">
-                <figure>
-                    <img id="banner-inscricao" src="assets/img/mockups/Jovens.png">
-                </figure>
-            </a>
-            <div id="banner-text">
-                <h4 class="titulos">⇧ Inscreva-se clicando no banner acima ⇧</h4>
-            </div>
+    <section id="container-banner2" class="mt-5">
+        <a href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se"
+            id="inscricao">
+            <figure>
+                <img id="banner-inscricao" src="assets/img/mockups/Jovens.png" alt="Banner de inscrição">
+            </figure>
+        </a>
+        <div id="banner-text" class="text-center mt-3">
+            <h4 class="titulos">⇧ Inscreva-se clicando no banner acima ⇧</h4>
         </div>
     </section>
 
     <footer>
-        <p id="end" class="text-center text-sm-center gap-1">
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-youtube"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-        </p>
-        <p class="text-center text-sm-center">
-            &copy; Copyright 2023,Corporation
-        </p>
+        <div id="end" class="d-flex justify-content-center gap-1 mt-5">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+        <p class="text-center">&copy; Copyright 2023, Corporation</p>
     </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
-
 
 </html>

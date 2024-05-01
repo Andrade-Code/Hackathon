@@ -2,55 +2,56 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>reprograme-se</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página inicial do projeto Reprograme-se">
+  <title>Reprograme-se</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
     defer></script>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light m-3">
       <div class="container-fluid">
-        <img class="navbar-brand" id="logo" src="./assets/img/logo-reprogramese/preferencial-horizontal.png"
-          alt="logo reprograme-se" />
+        <a href="index.html" class="navbar-brand">
+          <img id="logo" src="assets/img/logo-reprogramese/preferencial-horizontal.png" alt="Logo Reprograme-se">
+        </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav nav-tabs me-auto mb-2 mb-lg-1">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="curso.html">O curso</a>
+              <a class="nav-link" href="curso.html">O Curso</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="duvidas.html">Dúvidas</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="contato.html">Contato</a>
             </li>
           </ul>
-          <form class="d-flex gap-2">
-            <button class="btn btn-outline-primary" type="submit">A+</button>
-            <button class="btn btn-outline-primary" type="submit">A-</button>
-            <button class="btn btn-outline-primary" type="submit">
-              Contraste
-            </button>
-          </form>
+
+          <div class="d-flex gap-2">
+            <button class="btn btn-outline-primary" type="button">A+</button>
+            <button class="btn btn-outline-primary" type="button">A-</button>
+            <button class="btn btn-outline-primary" type="button">Contraste</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -64,88 +65,76 @@
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a href="https://www.ifes.edu.br/noticias/20847-ultimos-dias-para-se-inscrever-no-curso-que-ensina-a-identificar-fake-news"
             target="_blank">
-            <img src="./assets/img/noticias/fake-news.jpg" class="d-block w-100" alt="..." />
+            <img src="assets/img/noticias/fake-news.jpg" class="d-block w-100"
+              alt="Últimos dias para se inscrever no curso que ensina a identificar fake news">
           </a>
-          <div class="carousel-caption d-none d-sm-block rounded-3">
-            <h5>Instituto Federal do Espírito Santo - Ifes</h5>
-            <p>
-              Últimos dias para se inscrever no curso que ensina a identificar
-              fake news.
-            </p>
-            <p class="badge bg-primary text-wrap">
-              Publicado: Sexta, 03 de Março de 2023, 16h48 | Última
-              atualização em Sexta, 03 de Março de 2023, 16h51
-            </p>
+          <div class="carousel-caption d-none d-sm-block  rounded-3">
+            <h5 class="badge bg-primary text-wrap">Instituto Federal do Espírito Santo - Ifes</h5>
+            <p class="badge bg-primary text-wrap">Últimos dias para se inscrever no curso que ensina a identificar fake news.</p>
+            <p class="badge bg-primary text-wrap">Publicado: Sexta, 03 de Março de 2023, 16h48 | Última atualização em
+              Sexta, 03 de Março de 2023, 16h51</p>
           </div>
         </div>
         <div class="carousel-item">
-          <a href="https://action.org.es/acton-promove-o-11%cb%9a-vinho-com-ti-e-marca-a-volta-do-evento-no-formato-presencial/"
+          <a href="https://action.org.es/acton-promove-o-11%cb%9a-vinho-com-ti-e-marca-a-volta-do-evento-no-formato-presencial"
             target="_blank">
-            <img src="./assets/img/noticias/action.jpg" class="d-block w-100" alt="..." />
+            <img src="assets/img/noticias/action.jpg" class="d-block w-100"
+              alt="Associação Capixaba de Tecnologia - Act!on promove o 11˚ Vinho com TI e marca a volta do evento no formato presencial">
           </a>
-          <div class="carousel-caption d-none d-sm-block rounded-3">
-            <h5>Associação Capixaba de Tecnologia - Act!on</h5>
-            <p>
-              Act!on promove o 11˚ Vinho com TI e marca a volta do evento no
-              formato presencial.
-            </p>
-            <p class="badge bg-primary text-wrap">
-              Última atualização dia 23/06/2022 às 08:35
-            </p>
+          <div class="carousel-caption d-none d-sm-block  rounded-3">
+            <h5 class="badge bg-primary text-wrap">Associação Capixaba de Tecnologia - Act!on</h5>
+            <p class="badge bg-primary text-wrap">Act!on promove o 11˚ Vinho com TI e marca a volta do evento no formato presencial.</p>
+            <p class="badge bg-primary text-wrap">Última atualização dia 23/06/2022 às 08:35</p>
           </div>
         </div>
         <div class="carousel-item">
           <a href="https://www.ifes.edu.br/noticias/20635-projeto-reprograme-se-abre-inscricoes-para-curso-de-qualificacao"
             target="_blank">
-            <img src="./assets/img/noticias/reprograme-se carousel.jpg" class="d-block w-100" alt="..." />
+            <img src="assets/img/noticias/reprograme-se carousel.jpg" class="d-block w-100"
+              alt="Projeto Reprograme-se abre inscrições para curso de qualificação">
           </a>
-          <div class="carousel-caption d-none d-sm-block rounded-3">
-            <h5>Reprograme-se</h5>
-            <p>
-              Projeto Reprograme-se abre inscrições para curso de qualificação.
-            </p>
-            <p class="badge bg-primary text-wrap">
-              Publicado: Terça, 30 de Agosto de 2022, 17h13 | Última
-              atualização em Segunda, 31 de Outubro de 2022, 16h47
-            </p>
+          <div class="carousel-caption d-none d-sm-block  rounded-3">
+            <h5 class="badge bg-primary text-wrap">Reprograme-se</h5>
+            <p class="badge bg-primary text-wrap">Projeto Reprograme-se abre inscrições para curso de qualificação.</p>
+            <p class="badge bg-primary text-wrap">Publicado: Terça, 30 de Agosto de 2022, 17h13 | Última atualização em
+              Segunda, 31 de Outubro de 2022, 16h47</p>
           </div>
         </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">Anterior</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">Próximo</span>
       </button>
     </div>
   </section>
 
   <section>
-    <h1 class="d-flex justify-content-center p-2" id="titulo">
+    <h1 class="text-center p-2" id="titulo">
       <strong>Realização</strong>
     </h1>
     <div class="d-flex justify-content-center text-primary p-2">
-      <img id="logo1" src="./assets/img/logo-ifes/ifes-horizontal-cor.png" alt="" />
-      <img id="logo2" src="./assets/img/logo-action/horizontal-cor.png" alt="" />
+      <img id="logo1" src="assets/img/logo-ifes/ifes-horizontal-cor.png" alt="Logo Ifes">
+      <img id="logo2" src="assets/img/logo-action/horizontal-cor.png" alt="Logo Action">
     </div>
 
     <div class="row d-flex justify-content-center p-3 mb">
       <div class="col-auto mb-3">
         <div class="card" style="width: 18rem">
-          <img id="card1" src="./assets/img/cards/card2.jpg" class="card-img-top" alt="..." />
+          <img id="card1" src="assets/img/cards/card2.jpg" class="card-img-top" alt="Imagem de exemplo">
           <div class="card-body">
             <h5 class="card-title">IFES</h5>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates repudiandae eveniet veritatis dolorum. Dolores minima
-              ut, facilis animi voluptatum quae debitis quia architecto quos
-              aspernatur! content.
+              O Instituto Federal do Espírito Santo (IFES) é uma instituição pública de ensino superior, técnico e tecnológico, reconhecida por sua excelência na educação profissional e tecnológica. Com uma ampla variedade de cursos e programas, o IFES atende às demandas de formação e qualificação de estudantes em diversas áreas, contribuindo para o desenvolvimento econômico e social do estado do Espírito Santo.
             </p>
             <a href="https://www.ifes.edu.br/" target="_blank" class="btn btn-primary">Acesse</a>
           </div>
@@ -154,14 +143,11 @@
 
       <div class="col-auto mb-3">
         <div class="card" style="width: 18rem">
-          <img src="./assets/img/cards/card1.jpg" class="card-img-top" alt="..." />
+          <img src="assets/img/cards/card1.jpg" class="card-img-top" alt="Imagem de exemplo">
           <div class="card-body">
             <h5 class="card-title">ACTION</h5>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              possimus, et autem officiis commodi ad magnam fugit hic aliquam.
-              Tenetur aliquid at sequi aut nemo consequuntur laudantium rem
-              sapiente a. content.
+              A Associação Capixaba de Tecnologia (ACTION) é uma organização voltada para o incentivo e promoção da tecnologia no estado do Espírito Santo. Por meio de eventos, cursos e palestras, a ACTION fomenta a inovação, a colaboração e o desenvolvimento tecnológico, contribuindo para o crescimento e fortalecimento do ecossistema de tecnologia da região.
             </p>
             <a href="https://action.org.es/" target="_blank" class="btn btn-primary">Acesse</a>
           </div>
@@ -170,14 +156,11 @@
 
       <div class="col-auto mb-3">
         <div class="card" style="width: 18rem">
-          <img src="./assets/img/cards/card4.jpg" class="card-img-top" alt="..." />
+          <img src="assets/img/cards/card4.jpg" class="card-img-top" alt="Imagem de exemplo">
           <div class="card-body">
             <h5 class="card-title">REPROGRAME-SE</h5>
             <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-              laudantium quisquam optio, commodi labore libero consectetur
-              cumque similique neque vel sed, nobis rem impedit recusandae hic
-              est corporis! Sed modi.
+              O projeto Reprograme-se é uma iniciativa do Instituto Federal do Espírito Santo (Ifes) que busca capacitar jovens e adultos na área de programação web. Com uma abordagem prática e teórica, o projeto oferece cursos de front-end e back-end, preparando os participantes para atuar no mercado de trabalho de tecnologia com as habilidades necessárias.
             </p>
             <a href="https://reprograme-se.org.br/" target="_blank" class="btn btn-primary">Acesse</a>
           </div>
@@ -187,16 +170,25 @@
   </section>
 
   <footer>
-    <p class="d-flex justify-content-center gap-1" style="margin-top: 10rem">
-      <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
-        target="_blank"><i class="bi bi-twitter"></i></a>
-      <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
-      <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
-      <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-    </p>
-    <p class="d-flex justify-content-center">
-      &copy; Copyright 2023,Corporation
+    <div class="d-flex justify-content-center gap-1 mt-5">
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+    </div>
+    <p class="text-center">
+      &copy; Copyright 2023, Corporation
     </p>
   </footer>
 

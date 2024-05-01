@@ -1,97 +1,89 @@
-#logo {
-    width: 20%;
-}
-
-#logo1 {
-    width: 20%;
-}
-
+/* Estilo para os logos */
+#logo,
+#logo1,
 #logo2 {
     width: 20%;
 }
 
+/* Estilo para o título */
 #titulo {
     color: rgb(66, 139, 248);
 }
 
+/* Estilo para o carrossel */
 #carousel {
     height: 10%;
     margin-bottom: 2rem;
 }
 
-#depoimentos {
-    display: block;
-}
-
+/* Estilo para depoimentos */
+#depoimentos,
 #depoimentos1 {
     display: block;
-
 }
 
+/* Estilo para cartões */
 .card-2 {
-
-    /* height: 200px;
-    width: 450px; */
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-shadow: #1A7FBE -5px 5px, #5B7FB9 -10px 10px, #C27FB1 -15px 15px, #5B7FB9 -10px 10px, #C27FB1 -0 0;
+    box-shadow: -5px 5px #1A7FBE, -10px 10px #5B7FB9, -15px 15px #C27FB1, -10px 10px #5B7FB9, 0 0 #C27FB1;
     padding: 5px;
 }
 
-#container{
+/* Estilo para o container */
+#container {
     margin-bottom: 4rem;
     margin-top: 3rem;
 }
 
-p#end{
+/* Estilo para o final */
+#end {
     margin-top: 8rem;
 }
 
-/* minha parte termina aqui */
-
+/* Estilo para os títulos */
 div h2 {
     text-align: center;
 }
 
+/* Estilo para parágrafos */
 p {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5%;
 }
 
+/* Estilo para as seções de títulos */
 .titulos {
     color: #1A7FBE;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5%;
 }
 
-
-#titulo {
-    color: rgb(66, 139, 248);
-}
-
+/* Estilo para os botões */
 #pag {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
+/* Estilo para o texto do banner */
 #banner-text,
 #inscricao {
     display: flex;
     justify-content: center;
 }
 
-
+/* Estilo para a inscrição do banner */
 #banner-inscricao {
     height: 150px;
     width: 500px;
 }
 
+/* Estilo para seleção de módulos */
 #select-modulo {
     margin-left: 5%;
     margin-bottom: 3%;
 }
 
+/* Estilo para os containers das tabelas */
 #container-table1,
 #container-table2 {
     justify-content: center;
@@ -99,7 +91,7 @@ p {
     margin-bottom: 5%;
 }
 
-
+/* Estilo para as tabelas */
 #tabela1,
 #tabela2 {
     width: 90%;
@@ -109,6 +101,7 @@ p {
     color: white;
 }
 
+/* Estilo para cabeçalhos e rodapés das tabelas */
 table thead,
 tfoot {
     text-align: center;
@@ -116,68 +109,211 @@ tfoot {
     font-weight: bold;
 }
 
+/* Estilo para linhas das tabelas */
 table tr {
-    border: solid 1px black;
+    border: 1px solid black;
 }
 
+/* Estilo para células das tabelas */
 table td {
-    border: solid 1px black;
+    border: 1px solid black;
 }
 
+/* Estilo para o calendário */
 #container-calendario {
     width: 90%;
     margin: auto;
     color: #1A7FBE;
     display: flex;
     justify-content: center;
-
 }
 
+/* Estilo para o calendário */
 #calendar {
     width: 50%;
 }
 
+/* Estilo para eventos */
 #eventos {
     margin-left: 5%;
 }
 
+/* Estilo para o banner do container 2 */
 #container-banner2 {
     margin-top: 5rem;
 }
-/* Ajuste para os botões de controle do carrossel */
+
+/* Fazendo ajustes
+
+/* Ajuste para as legendas do carrossel com fundo branco */
+.carousel-caption {
+    
+    color: #333; /* Cor de texto mais escura para contraste com o fundo branco */
+}
+
+/* Ajuste específico para a cor dos textos das legendas */
+.carousel-inner .carousel-item:nth-child(1) .carousel-caption h5,
+.carousel-inner .carousel-item:nth-child(1) .carousel-caption p,
+.carousel-inner .carousel-item:nth-child(3) .carousel-caption h5,
+.carousel-inner .carousel-item:nth-child(3) .carousel-caption p {
+    color: white; /* Cor do texto nos botões */
+    color: white; /* Cor mais escura para o texto contrastar com o fundo branco */
+}
+
+/* Ajuste para os botões */
+button {
+    background-color: #333; /* Cor mais escura para contraste com o fundo branco */
+    color: white; /* Cor do texto nos botões */
+}
+
+/* Botões de controle do carrossel */
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Cor escura com opacidade para contraste com o fundo branco */
-    color: white;
-    /* Cor branca para contrastar com o fundo escuro */
-    width: 5%;
-    /* Define a largura dos botões de controle */
-    display: flex;
-    /* Mantém os botões flexíveis para centralizar os ícones */
-    justify-content: center;
-    /* Centraliza os ícones nos botões */
-    align-items: center;
-    /* Centraliza os ícones nos botões */
+    color: #333; /* Cor mais escura para contraste com o fundo branco */
 }
 
-/* Ajuste para os ícones dos botões de controle */
+/* Botões de controle do carrossel - Ícones */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(1);
-    /* Inverte a cor dos ícones para branco */
+    background-color: #333; /* Cor mais escura para contraste com o fundo branco */
 }
 
-/* Ajuste para a cor dos textos nas legendas com fundo branco */
-.carousel-caption h5,
-.carousel-caption p {
-    color: black;
-    /* Cor do texto preta para contraste com fundo branco */
+/* Estilo para os badges */
+.badge.bg-primary.text-wrap {
+    display: block; /* Exibe os badges um embaixo do outro */
+    margin: 0 auto; /* Centraliza os badges */
+    width: fit-content; /* Ajusta a largura ao texto */
+    padding: 0.2rem 0.4rem; /* Ajusta o preenchimento interno do badge */
+     font-size: 1.2rem; /* Aumenta o tamanho do texto */
 }
 
-/* Ajuste específico para a legenda com fundo azul */
-.carousel-inner .carousel-item:nth-child(2) .carousel-caption h5,
-.carousel-inner .carousel-item:nth-child(2) .carousel-caption p {
-    color: white;
-    /* Cor do texto branca para contraste com fundo azul */
+/* Estilo para o container do cartão */
+.card-body {
+    height: 500px; /* Ajuste a altura conforme necessário */
+    display: flex; /* Define o .card-body como um flex container */
+    flex-direction: column; /* Configura a direção flexível como coluna */
+    /*justify-content: space-between; /* Distribui uniformemente os itens dentro do container */
+}
+
+.card-text {
+    text-align: justify; /* Justifica o texto dentro dos cartões */
+}
+
+
+/* Estilo para os botões dentro do cartão */
+.card-body .btn {
+    margin-top: auto; /* Faz com que o botão fique na parte inferior do cartão */
+    width: 30%; /* Faz com que o botão ocupe 100% da largura do cartão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+/* Estilos para os links da barra de navegação */
+.nav-link {
+    font-family: 'Arial', sans-serif; /* Fonte estilizada */
+    color: #fff; /* Cor de texto */
+    padding: 10px 15px; /* Adiciona espaçamento ao redor do texto */
+    margin-right: 10px; /* Espaçamento entre as opções de navegação */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves */
+}
+
+/* Estilos para links quando ativos ou ao passar o cursor sobre eles */
+.nav-link:hover, .nav-link.active {
+    background-color: #5b7fb9; /* Cor de fundo quando ativo ou ao passar o cursor */
+    color: #f0f0f0; /* Cor de texto quando ativo ou ao passar o cursor */
+}
+
+/* Adiciona um efeito de sombra aos links */
+.nav-link {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para os placeholders */
+input::placeholder,
+textarea::placeholder {
+    color: #6c757d; /* Cor do texto do placeholder */
+    font-style: italic; /* Estilo do texto */
+}
+
+/* Ajustando inputs de texto para melhor aparência */
+input[type="text"],
+textarea {
+    border: 1px solid #ced4da; /* Cor da borda */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Borda arredondada */
+    width: 100%; /* Largura total */
+    box-sizing: border-box; /* Inclui padding e border na largura */
+}
+
+/* Melhorando o tamanho e estilo dos placeholders */
+input::placeholder,
+textarea::placeholder {
+    font-size: 1rem; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Família de fontes */
+}
+
+/* Estilo para o cabeçalho <h1> da seção de perguntas frequentes */
+h1.text-center.titulos {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    color: #0056b3; /* Define a cor do texto como azul escuro */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o link de contato */
+.contact-link {
+    display: inline-block; /* Exibe o link como bloco inline para permitir estilização */
+    padding: 10px 20px; /* Adiciona espaço interno ao redor do texto */
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte para melhor legibilidade */
+    border-radius: 5px; /* Adiciona cantos arredondados ao link */
+    color: #ffffff; /* Define a cor do texto como branco */
+    background-color: #007bff; /* Define a cor de fundo como azul primário de Bootstrap */
+    text-decoration: none; /* Remove sublinhado padrão do link */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo */
+}
+
+/* Estilo para o link de contato em hover */
+.contact-link:hover {
+    background-color: #0056b3; /* Escurece a cor de fundo ao passar o mouse */
+}
+
+/* Estilizando as tabelas */
+table {
+    width: 100%; /* Largura total para as tabelas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border-collapse: collapse; /* Colapso de bordas */
+    border-spacing: 0; /* Espaçamento entre células */
+    border: 1px solid #ccc; /* Borda das tabelas */
+}
+
+/* Cabeçalhos das tabelas */
+table thead th {
+    background-color: #0056b3; /* Azul escuro */
+    color: #fff; /* Texto branco para contraste */
+    padding: 12px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento à esquerda */
+    border-bottom: 2px solid #ccc; /* Borda inferior */
+}
+
+/* Corpo das tabelas */
+table tbody td {
+    padding: 10px; /* Espaçamento interno */
+    border-bottom: 1px solid #ccc; /* Borda inferior */
+    text-align: left; /* Alinhamento à esquerda */
+    background-color: #f2f2f2; /* Fundo claro */
+    color: #333; /* Texto escuro para contraste */
+}
+
+/* Linhas alternadas para melhorar a legibilidade */
+table tbody tr:nth-child(odd) {
+    background-color: #e6f7ff; /* Fundo alternativo leve azul */
+}
+
+/* Estilizando listas dentro das células */
+table td ul {
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    list-style-type: disc; /* Lista com marcadores em disco */
+    padding-left: 20px; /* Adiciona espaço à esquerda */
 }
