@@ -512,3 +512,19 @@ table td ul {
         /* Ajuste o padding para se adaptar à tela menor */
     }
 }
+
+/* Ajustes para a logo em dispositivos móveis */
+@media (max-width: 576px) {
+    #logo-reprogramese {
+        width: 10%;
+        /* Reduza a largura da logo */
+        margin: 10px;
+        /* Ajuste o espaçamento ao redor da logo */
+    }
+
+    /* Ajustes para o ícone de hambúrguer */
+    .navbar-toggler {
+        margin: 0;
+        /* Remova margens para permitir mais espaço */
+    }
+}
