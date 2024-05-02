@@ -1,5 +1,5 @@
 /* Estilo para os logos */
-#logo-reprogramese,
+
 #logo-ifes,
 #logo-action {
     width: 20%;
@@ -11,7 +11,7 @@
 /* Ajuste de tamanho responsivo */
 @media (max-width: 768px) {
 
-    #logo-reprogramese,
+    
     #logo-ifes,
     #logo-action {
         width: 30%;
