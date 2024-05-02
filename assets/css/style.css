@@ -493,25 +493,22 @@ table td ul {
         /* Cor de texto clara para o rodapé */
     }
 }
-/* Estilo para o botão */
-button {
+/* Ajustes para o botão "Acesse" usando Bootstrap */
+/* Estilo padrão para o botão */
+.btn-primary {
     white-space: nowrap;
+    /* Garante que o texto não quebre */
     padding: 10px 20px;
     font-size: 14px;
     /* Ajuste conforme necessário */
-    display: inline-block;
-    width: auto;
-    /* Ajuste conforme necessário */
-    max-width: 100%;
-    /* Limita a largura máxima do botão */
 }
 
-/* Media query para tamanhos de tela menores */
-@media (max-width: 480px) {
-    button {
+/* Media query para telas menores */
+@media (max-width: 576px) {
+    .btn-primary {
         font-size: 12px;
-        /* Ajuste conforme necessário */
+        /* Ajuste conforme necessário para telas menores */
         padding: 8px 16px;
-        /* Ajuste conforme necessário */
+        /* Ajuste o padding para se adaptar à tela menor */
     }
 }
