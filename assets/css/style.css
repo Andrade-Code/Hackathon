@@ -9,12 +9,12 @@
 }
 
 /* Ajuste de tamanho responsivo */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
     #logo-reprogramese,
     #logo-ifes,
     #logo-action {
-        width: 20%;
+        width: 30%;
         /* Reduz o tamanho dos logos em telas menores */
     }
 }
