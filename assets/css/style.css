@@ -493,3 +493,21 @@ table td ul {
         /* Cor de texto clara para o rodapé */
     }
 }
+/* Estilo para o botão */
+button {
+    white-space: nowrap;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Ajuste conforme necessário */
+    display: inline-block;
+}
+
+/* Media query para tamanhos de tela menores */
+@media (max-width: 480px) {
+    button {
+        font-size: 14px;
+        /* Ajuste conforme necessário */
+        padding: 8px 16px;
+        /* Ajuste conforme necessário */
+    }
+}
