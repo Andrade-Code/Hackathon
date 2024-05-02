@@ -497,17 +497,21 @@ table td ul {
 button {
     white-space: nowrap;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     /* Ajuste conforme necessário */
     display: inline-block;
+    width: auto;
+    /* Ajuste conforme necessário */
+    max-width: 100%;
+    /* Limita a largura máxima do botão */
 }
 
 /* Media query para tamanhos de tela menores */
 @media (max-width: 480px) {
     button {
-        font-size: 14px;
+        font-size: 12px;
         /* Ajuste conforme necessário */
-        padding: 7px 14px;
+        padding: 8px 16px;
         /* Ajuste conforme necessário */
     }
 }
