@@ -1,5 +1,5 @@
 /* Estilo para os logos */
-
+#logo-reprogramese,
 #logo-ifes,
 #logo-action {
     width: 20%;
@@ -11,7 +11,7 @@
 /* Ajuste de tamanho responsivo */
 @media (max-width: 768px) {
 
-    
+    #logo-reprogramese,
     #logo-ifes,
     #logo-action {
         width: 30%;
@@ -43,10 +43,10 @@
     box-shadow: -5px 5px #1A7FBE, -10px 10px #5B7FB9, -15px 15px #C27FB1, -10px 10px #5B7FB9, 0 0 #C27FB1;
     padding: 5px;
     height: 350px;
-        /* Diminuir a altura do cartão */
-        margin-top: 20px;
-            /* Adiciona espaço entre os cartões e o título */
-    
+    /* Diminuir a altura do cartão */
+    margin-top: 20px;
+    /* Adiciona espaço entre os cartões e o título */
+
 }
 
 /* Estilo para o container */
@@ -484,6 +484,10 @@ table td ul {
     .navbar {
         background-color: #444;
         /* Cor de fundo escura para a barra de navegação */
+        /* Usar flexbox para gerenciar o layout da barra de navegação */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .footer {
@@ -493,6 +497,7 @@ table td ul {
         /* Cor de texto clara para o rodapé */
     }
 }
+
 /* Ajustes para o botão "Acesse" usando Bootstrap */
 /* Estilo padrão para o botão */
 .btn-primary {
@@ -512,13 +517,12 @@ table td ul {
         /* Ajuste o padding para se adaptar à tela menor */
     }
 }
-
 /* Ajustes para a logo em dispositivos móveis */
 @media (max-width: 576px) {
     #logo-reprogramese {
-        width: 10%;
-        /* Reduza a largura da logo */
-        margin: 10px;
+        width: 15%;
+        /* Reduza a largura da logo ainda mais */
+        margin: 5px;
         /* Ajuste o espaçamento ao redor da logo */
     }
 
@@ -526,5 +530,5 @@ table td ul {
     .navbar-toggler {
         margin: 0;
         /* Remova margens para permitir mais espaço */
-    }
-}
+        padding: 0;
+        /* Remova qualquer padding para otimizar o espaço */
