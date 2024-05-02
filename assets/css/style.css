@@ -520,15 +520,26 @@ table td ul {
 /* Ajustes para a logo em dispositivos móveis */
 @media (max-width: 576px) {
     #logo-reprogramese {
-        width: 15%;
-        /* Reduza a largura da logo ainda mais */
-        margin: 5px;
-        /* Ajuste o espaçamento ao redor da logo */
+        width: 10%;
+        /* Reduza ainda mais a largura da logo */
+        margin: 0;
+        /* Remova margens para liberar mais espaço */
     }
 
     /* Ajustes para o ícone de hambúrguer */
     .navbar-toggler {
         margin: 0;
-        /* Remova margens para permitir mais espaço */
         padding: 0;
-        /* Remova qualquer padding para otimizar o espaço */
+        /* Defina tamanho do ícone de hambúrguer, se necessário */
+    }
+}
+
+/* Ajustes para a barra de navegação */
+.navbar {
+    display: flex;
+    /* Usar flexbox para gerenciar layout */
+    justify-content: space-between;
+    /* Distribuir os elementos de forma uniforme */
+    align-items: center;
+    /* Centralizar verticalmente os elementos */
+}
