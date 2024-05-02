@@ -1,5 +1,5 @@
 /* Estilo para os logos */
-#logo-reprogramese,
+
 #logo-ifes,
 #logo-action {
     width: 20%;
@@ -9,9 +9,9 @@
 }
 
 /* Ajuste de tamanho responsivo */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
-    #logo-reprogramese,
+    
     #logo-ifes,
     #logo-action {
         width: 30%;
@@ -516,4 +516,30 @@ table td ul {
         padding: 8px 16px;
         /* Ajuste o padding para se adaptar à tela menor */
     }
+}
+/* Ajustes para a logo em dispositivos móveis */
+@media (max-width: 576px) {
+    #logo-reprogramese {
+        width: 10%;
+        /* Reduza ainda mais a largura da logo */
+        margin: 0;
+        /* Remova margens para liberar mais espaço */
+    }
+
+    /* Ajustes para o ícone de hambúrguer */
+    .navbar-toggler {
+        margin: 0;
+        padding: 0;
+        /* Defina tamanho do ícone de hambúrguer, se necessário */
+    }
+}
+
+/* Ajustes para a barra de navegação */
+.navbar {
+    display: flex;
+    /* Usar flexbox para gerenciar layout */
+    justify-content: space-between;
+    /* Distribuir os elementos de forma uniforme */
+    align-items: center;
+    /* Centralizar verticalmente os elementos */
 }
